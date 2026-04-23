@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/AditiNaldurgkar/hybrid-framework.git'
+                git branch: 'main', url: 'https://github.com/AditiNaldurgkar/hybrid-framework.git'
             }
         }
 
