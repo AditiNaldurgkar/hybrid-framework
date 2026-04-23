@@ -2,21 +2,22 @@ pipeline {
     agent any
 
     stages {
+
         stage('Checkout') {
             steps {
-                git 'https://github.com/AditiNaldurgkar/hybrid-framework'
+                git 'https://github.com/AditiNaldurgkar/hybrid-framework.git'
             }
         }
 
         stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Test') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
 
@@ -24,8 +25,11 @@ pipeline {
             steps {
                 publishHTML([
                     reportDir: 'reports',
-                    reportFiles: 'extent-report.html',
-                    reportName: 'Test Report'
+                    reportFiles: 'extent-report-jenkins.html',
+                    reportName: 'Test Report Jenkins',
+                    keepAll: true,
+                    alwaysLinkToLastBuild: true,
+                    allowMissing: false
                 ])
             }
         }
