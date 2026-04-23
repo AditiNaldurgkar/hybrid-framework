@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    options {
+        skipDefaultCheckout()
+    }
+
     stages {
 
         stage('Checkout') {
@@ -9,28 +13,15 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('Build & Test') {
             steps {
-                bat 'mvn clean compile'
+                bat 'mvn clean test'
             }
         }
 
-        stage('Test') {
+        stage('Allure Report') {
             steps {
-                bat 'mvn test'
-            }
-        }
-
-        stage('Report') {
-            steps {
-                publishHTML([
-                    reportDir: 'reports',
-                    reportFiles: 'extent-report-jenkins.html',
-                    reportName: 'Test Report Jenkins',
-                    keepAll: true,
-                    alwaysLinkToLastBuild: true,
-                    allowMissing: false
-                ])
+                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }
     }
