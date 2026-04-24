@@ -5,4 +5,5 @@ pages\LoginPage.class
 utils\DriverFactory.class
 utils\FeatureGenerator.class
 hooks\hooks.class
+api\APITest.class
 runner\TestRunner.class
