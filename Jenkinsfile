@@ -24,5 +24,10 @@ pipeline {
                 allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }
+        stage('Post Results') {
+    steps {
+        junit 'target/surefire-reports/*.xml'
+    }
+}
     }
 }
