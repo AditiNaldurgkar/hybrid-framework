@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1777013158447,945,Open Login Page,200,OK,Users 1-1,text,true,,1701,115,3,3,https://www.saucedemo.com/,931,0,601
+1777013158834,558,Open Login Page,200,OK,Users 1-2,text,true,,1693,115,3,3,https://www.saucedemo.com/,549,0,237
+1777013159334,140,Open Login Page,200,OK,Users 1-3,text,true,,1699,115,3,3,https://www.saucedemo.com/,140,0,90
+1777013159395,146,Login Request,405,Method Not Allowed,Users 1-1,,false,,488,245,3,3,https://www.saucedemo.com/,146,0,101
+1777013159475,154,Login Request,405,Method Not Allowed,Users 1-3,,false,,488,245,3,3,https://www.saucedemo.com/,153,0,110
+1777013159395,269,Login Request,405,Method Not Allowed,Users 1-2,,false,,481,245,3,3,https://www.saucedemo.com/,268,0,186
+1777013159833,156,Open Login Page,200,OK,Users 1-4,text,true,,1699,115,4,4,https://www.saucedemo.com/,155,0,109
+1777013159630,385,Inventory Page,404,Not Found,Users 1-3,text,false,,3976,129,4,4,https://www.saucedemo.com/inventory.html,384,0,88
+1777013159665,350,Inventory Page,404,Not Found,Users 1-2,text,false,,3975,129,4,4,https://www.saucedemo.com/inventory.html,349,0,95
+1777013159543,549,Inventory Page,404,Not Found,Users 1-1,text,false,,3948,129,2,2,https://www.saucedemo.com/inventory.html,548,0,217
+1777013159989,278,Login Request,405,Method Not Allowed,Users 1-4,,false,,481,245,1,1,https://www.saucedemo.com/,277,0,187
+1777013160268,148,Inventory Page,404,Not Found,Users 1-4,text,false,,3973,129,2,2,https://www.saucedemo.com/inventory.html,146,0,101
+1777013160330,261,Open Login Page,200,OK,Users 1-5,text,true,,1691,115,1,1,https://www.saucedemo.com/,260,0,177
+1777013160592,276,Login Request,405,Method Not Allowed,Users 1-5,,false,,481,245,2,2,https://www.saucedemo.com/,276,0,191
+1777013160829,130,Open Login Page,200,OK,Users 1-6,text,true,,1699,115,2,2,https://www.saucedemo.com/,130,0,89
+1777013160869,137,Inventory Page,404,Not Found,Users 1-5,text,false,,3973,129,2,2,https://www.saucedemo.com/inventory.html,136,0,92
+1777013160960,297,Login Request,405,Method Not Allowed,Users 1-6,,false,,481,245,1,1,https://www.saucedemo.com/,296,0,199
+1777013161258,282,Inventory Page,404,Not Found,Users 1-6,text,false,,3945,129,2,2,https://www.saucedemo.com/inventory.html,281,0,191
+1777013161329,283,Open Login Page,200,OK,Users 1-7,text,true,,1691,115,1,1,https://www.saucedemo.com/,282,0,194
+1777013161613,261,Login Request,405,Method Not Allowed,Users 1-7,,false,,481,245,2,2,https://www.saucedemo.com/,260,0,177
+1777013161829,129,Open Login Page,200,OK,Users 1-8,text,true,,1700,115,2,2,https://www.saucedemo.com/,128,0,88
+1777013161874,293,Inventory Page,404,Not Found,Users 1-7,text,false,,3945,129,2,2,https://www.saucedemo.com/inventory.html,292,0,193
+1777013161958,255,Login Request,405,Method Not Allowed,Users 1-8,,false,,481,245,1,1,https://www.saucedemo.com/,254,0,171
+1777013162214,263,Inventory Page,404,Not Found,Users 1-8,text,false,,3945,129,2,2,https://www.saucedemo.com/inventory.html,261,0,174
+1777013162329,281,Open Login Page,200,OK,Users 1-9,text,true,,1691,115,1,1,https://www.saucedemo.com/,280,0,190
+1777013162611,282,Login Request,405,Method Not Allowed,Users 1-9,,false,,481,245,2,2,https://www.saucedemo.com/,281,0,190
+1777013162829,137,Open Login Page,200,OK,Users 1-10,text,true,,1699,115,2,2,https://www.saucedemo.com/,137,0,94
+1777013162894,142,Inventory Page,404,Not Found,Users 1-9,text,false,,3973,129,2,2,https://www.saucedemo.com/inventory.html,141,0,98
+1777013162967,134,Login Request,405,Method Not Allowed,Users 1-10,,false,,488,245,1,1,https://www.saucedemo.com/,134,0,95
+1777013163102,290,Inventory Page,404,Not Found,Users 1-10,text,false,,3945,129,1,1,https://www.saucedemo.com/inventory.html,288,0,194
